@@ -1,5 +1,5 @@
 {
-  "name": "dockerize",
+  "name": "dockrize",
   "version": "1.0.0",
   "description": "A command line tool to auto generate Dockerfiles for popular frameworks.",
   "main": "control.js",
