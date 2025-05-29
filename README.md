@@ -94,7 +94,7 @@ Created by [Kishan Agarwal](https://github.com/Kishan-Agarwal-28)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/Kishan-Agarwal-28/simple-auth-cli/issues).
+Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/Kishan-Agarwal-28/dockrize/issues).
 
 ## ⭐ Show your support
 
