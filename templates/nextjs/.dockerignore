@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+.dockerignore
+**/.git
+**/.DS_Store
+**/node_modules
+.env
+.env.*
+.next
+out
+build
+.vercel
+.turbo
+.coverage
+test-results
+playwright-report

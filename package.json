@@ -1,0 +1,35 @@
+{
+  "name": "dockerize",
+  "version": "1.0.0",
+  "description": "A command line tool to auto generate Dockerfiles for popular frameworks.",
+  "main": "control.js",
+  "scripts": {
+    "start": "node control.js"
+  },
+  "author": "Kishan Agarwal",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "chokidar": "^4.0.3",
+    "commander": "^14.0.0",
+    "lodash.debounce": "^4.0.8",
+    "ora": "^8.2.0",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.23"
+  },
+  "bin": {
+    "dockrize": "./control.js"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishan-Agarwal-28/dockrize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kishan-Agarwal-28/dockrize/issues"
+  },
+  "homepage": "https://github.com/Kishan-Agarwal-28/dockrize#readme"
+}

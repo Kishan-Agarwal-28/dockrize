@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  express-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: express-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - express-network
+    volumes:
+      - ./logs:/app/logs
+
+networks:
+  express-network:
+    driver: bridge

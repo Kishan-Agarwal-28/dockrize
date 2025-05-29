@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  svelte-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: svelte-app
+    ports:
+      - "5000:80"
+    restart: unless-stopped
+    networks:
+      - svelte-network
+
+networks:
+  svelte-network:
+    driver: bridge

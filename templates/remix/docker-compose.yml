@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  remix-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: remix-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - remix-network
+
+networks:
+  remix-network:
+    driver: bridge

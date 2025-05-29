@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+.dockerignore
+**/.git
+**/.DS_Store
+**/node_modules
+.env
+.env.*
+.cache
+build
+public/build
+api/build
+postgres-data
+coverage
+./cypress
+cypress.config.ts

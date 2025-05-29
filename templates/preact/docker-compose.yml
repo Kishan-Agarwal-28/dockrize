@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  preact-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: preact-app
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    networks:
+      - preact-network
+
+networks:
+  preact-network:
+    driver: bridge

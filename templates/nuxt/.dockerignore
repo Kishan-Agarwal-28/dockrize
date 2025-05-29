@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+.dockerignore
+**/.git
+**/.DS_Store
+**/node_modules
+.env
+.env.*
+.nuxt
+.output
+dist
+.nitro
+.cache
+.output
+.nuxt
+dist

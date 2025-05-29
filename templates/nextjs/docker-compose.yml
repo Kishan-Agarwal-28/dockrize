@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  nextjs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nextjs-app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    networks:
+      - nextjs-network
+
+networks:
+  nextjs-network:
+    driver: bridge
