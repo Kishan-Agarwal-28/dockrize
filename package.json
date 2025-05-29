@@ -1,6 +1,6 @@
 {
   "name": "dockrize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line tool to auto generate Dockerfiles for popular frameworks.",
   "main": "control.js",
   "scripts": {
@@ -23,7 +23,18 @@
   "bin": {
     "dockrize": "./control.js"
   },
-  "keywords": [],
+  "keywords": [
+    "docker",
+    "dockerfile",
+    "cli",
+    "command-line",
+    "generator",
+    "automation",
+    "devops",
+    "nodejs",
+    "frameworks",
+    "container"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kishan-Agarwal-28/dockrize.git"
